@@ -5,8 +5,12 @@ const bodyParser = require("body-parser");
 const koneksi = require("./database");
 // const Connection = require("mysql/lib/Connection");
 const app = express();
-const PORT = process.env.PORT || 443;
+<<<<<<< HEAD
+// const PORT = process.env.PORT || 443;
 
+=======
+const PORT = process.env.PORT || 5000;
+>>>>>>> 8ed9c2e116613086290174fcaaffb4a5c1e04920
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
